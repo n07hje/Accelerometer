@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvRepeat" android:textAlignment="center" android:layout_weight="0.33"
+            android:textColor="#ffc30a00" android:textStyle="bold" android:gravity="center" android:textSize="30dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="Stop"
+            android:id="@+id/btnStop" android:layout_weight="0.33" android:textColor="#ffff0200"
+            android:textSize="32dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="Start"
+            android:id="@+id/btnStart" android:layout_weight="0.33" android:textColor="#ffff0800"
+            android:textSize="40dp"/>
+</LinearLayout>
+
